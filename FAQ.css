@@ -1,0 +1,51 @@
+.box {
+    width: 75%;
+    display: block;
+    background-color: #7138c1 ;
+    color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.box-header {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.box-content {
+    background-color:#d2d2d2;
+    color: black;
+    padding: 0 10px; /* Start with no padding */
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.2;
+    max-height: 0;  /* Initially hidden */
+    overflow: hidden;
+    
+    /* ✅ Fix: Apply transition properly */
+    transition: max-height 0.5s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* Show full content when hovering */
+.box:hover .box-content {
+    display: block; /* Expands fully */
+}
+
+.box-content p {
+    margin: 0;
+    line-height: 1.2;
+    padding: 0x 0; /* Optional: Adds space between lines */
+}
+
+.FAQ {
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+
+}

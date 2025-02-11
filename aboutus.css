@@ -1,0 +1,77 @@
+.container1 {
+    width: 80%; 
+    max-width: 1000px; 
+    height: 400px; 
+    margin: 20px auto; 
+    background: url(./assets/images/ourvision.png) no-repeat center center;
+    background-size: cover; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    border-radius: 15px; 
+}
+
+.top-image {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+.bottom-text {
+    color: #6301A6;
+    font-weight: 900;
+    font-size: 18px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div1 {
+    height: 200px;
+    background: url('./assets/images/div3.png') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6301A6;
+    font-size: 54px;
+    font-weight: bolder;
+    text-align: center;
+}
+.div2, .div3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 80%; 
+    max-width: 1000px; 
+    height: fit-content;
+    padding: 40px 50px 40px 50px;
+    border-radius: 25px; 
+    margin: 20px auto; 
+}
+
+.div2{
+    background-color: #93ca77;
+}
+.div3{
+    background-color: #8edd63;
+}
+.div2 img, .div3 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.text {
+    font-size: 18px;
+}
+.div3 {
+    flex-direction: row-reverse;
+}

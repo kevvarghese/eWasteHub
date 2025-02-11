@@ -1,0 +1,59 @@
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap; 
+}
+
+.box {
+    width: 400px;
+    height: 325px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 30px;
+    margin: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out; 
+}
+
+
+.box:hover {
+    opacity: 0.85; 
+}
+
+.box1 {
+    background: url('./assets/images/CaD.jpg'); 
+    background-position: right;
+
+}
+
+.box2 {
+    background: url('./assets/images/RPS.jpg');
+    background-position: center;
+}
+
+.box3 {
+    background: url('./assets/images/RAED.jpg');
+    background-position: center;
+}
+
+.ServiceHeading{
+    background-color:#4B946B ;
+    padding: 20px 75px ;
+    border-radius: 20px;
+    margin: 50px  220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+
+}  
