@@ -1,6 +1,6 @@
 * {
   font-style: normal;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Calibri, sans-serif;
 }
 
 body {
@@ -8,52 +8,40 @@ body {
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed;
-    margin: 0;
 }
 
+
 .navbar {
-  display: flex; 
-  justify-content: flex-end; 
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #54A678;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  background-color: black;
+  padding: 15px 30px; 
+  width: 100%;
+}
+
+
+.logo img {
+  height: 70px;
+  width: auto;
 }
 
 .shortcuts {
-  background-color: #54A678;
-  padding: 15px 20px;
-  border-radius: 8px;
-  margin: 10px;
-  text-align: center;
-  transition: 0.3s ease-in-out; 
+  display: flex;
+  gap: 15px;
 }
 
-.shortcuts:hover {
-  background-color: #4B946B;
-}
-
-.shortcuts a {
-  font-size: medium;
-  font-weight: 500;
-  text-decoration: none;
+#index, #services, #FAQ, #contact, #about, #login {
+  padding: 10px;
+  padding-top: 6xp;
+  border-radius: 5px;
+  gap: 5px;
+  font-size: 20px;
   color: white;
-  display: inline-block; 
+  text-decoration: none;
 }
 
-.shortcuts:hover a {
-  color: black;
-}
-
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.home-button {
-    display: inline-block;  
-    width: 45px;           
-    height: 45px;           
-    background: url('./assets/images/HomeButton.png') no-repeat center/cover;
-    text-decoration: none; 
+#index:hover, #services:hover, #FAQ:hover, #about:hover, #contact:hover, #login:hover {
+  background-color:red;
+  text-decoration: none;
 }

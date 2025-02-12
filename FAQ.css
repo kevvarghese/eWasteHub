@@ -1,7 +1,7 @@
 .box {
     width: 75%;
     display: block;
-    background-color: #7138c1 ;
+    background-color: black ;
     color: rgba(255, 255, 255, 0.767);
     text-align: center;
     border-radius: 10px;
@@ -19,28 +19,26 @@
 
 
 .box-content {
-    background-color:#d2d2d2;
+    background-color:white;
     color: black;
-    padding: 0 10px; /* Start with no padding */
+    padding: 0 10px; 
     text-align: left;
     font-size: 14px;
     line-height: 1.2;
-    max-height: 0;  /* Initially hidden */
+    max-height: 0;  
     overflow: hidden;
     
-    /* ✅ Fix: Apply transition properly */
     transition: max-height 0.5s ease-in-out, padding 0.3s ease-in-out;
 }
 
-/* Show full content when hovering */
 .box:hover .box-content {
-    display: block; /* Expands fully */
+    display: block; 
 }
 
 .box-content p {
     margin: 0;
     line-height: 1.2;
-    padding: 0x 0; /* Optional: Adds space between lines */
+    padding: 0x 0; 
 }
 
 .FAQ {

@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Calibri, sans-serif;
+    
+}
+body{
+    background-color: #c9d6ff;
+    background:linear-gradient(to right,#e2e2e2,#c9d6ff);
+    background-image: url("./assets/images/background.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+.container{
+    background:#4e4949;
+    width:450px;
+    padding:1.5rem;
+    margin:50px auto;
+    margin-top: 200px;
+    border-radius:10px;
+    box-shadow:0 20px 35px rgba(0,0,1,0.9);
+}
+form{
+    margin:0 2rem;
+}
+.form-title{
+    font-size:1.5rem;
+    font-weight:bold;
+    text-align:center;
+    padding:1.3rem;
+    margin-bottom:0.4rem;
+    color: white;
+}
+input{
+    color:inherit;
+    width:100%;
+    background-color:white;
+    border:none;
+    border-bottom:1px solid #757575;
+    padding-left:1.5rem;
+    font-size:15px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.input-group{
+    padding:1% 0;
+    position:relative;
+    height: 50px;
+
+}
+.input-group i{
+    position:absolute;
+    color:black;
+    padding: 10px;
+}
+input:focus{
+    background-color: white;
+    outline:lightgray;
+    border-bottom:2px solid hsl(327,90%,28%);
+}
+input::placeholder{
+    color:white;
+}
+label{
+    color:#757575;
+    position:relative;
+    left:2em;
+    top:-2em;
+    cursor:auto;
+    transition:0.3s ease all;
+}
+input:focus~label,input:not(:placeholder-shown)~label{
+    top:-3em;
+    color:transparent;
+    font-size:15px;
+}
+.recover{
+    text-align:right;
+    font-size:1rem;
+    margin-bottom:1rem;
+
+}
+.recover a{
+    text-decoration:none;
+    color:white;
+    font-weight: 900;
+}
+.recover a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+.btn{
+    font-size:1.1rem;
+    padding:8px 0;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    width:100%;
+    height: 50px;
+    background:red;
+    color:white;
+    cursor:pointer;
+    transition:0.9s;
+    font-weight: 900;
+    font-size: x-large;
+}
+.btn:hover{
+    background:greenyellow;
+    color: black;
+}
+.or{
+    font-size:1.1rem;
+    margin-top:0.5rem;
+    text-align:center;
+    color: white;
+    margin: 5px;
+}
+.icons{
+    text-align:center;
+}
+.icons i{
+    background-color: white;
+    padding:0.8rem 1.5rem;
+    border-radius:10px;
+    font-size:1.5rem;
+    cursor:pointer;
+    border:2px solid #dfe9f5;
+    margin:0 15px;
+    transition:1s;
+}
+.icons i:hover{
+    background:lightgray;
+    font-size:1.6rem;
+    border:2px solid rgb(125,125,235);
+}
+.links{
+    display:flex;
+    justify-content:space-around;
+    padding:0 4rem;
+    margin-top:0.9rem;
+    font-weight:bold;
+    color: white;
+}
+button{
+    color: white;
+    font-weight: 900;
+    border:none;
+    background-color:transparent;
+    font-size:1rem;
+    font-weight:bold;
+}
+button:hover{
+    text-decoration: none;
+    color:yellow;
+}
+#email , #fName , #lName , #password{
+    padding-left: 30px;
+}
