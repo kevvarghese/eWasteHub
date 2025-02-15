@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const boxes = document.querySelectorAll(".box"); // Select all .box elements
+    const boxes = document.querySelectorAll(".box"); 
 
     boxes.forEach(box => {
         const boxContent = box.querySelector(".box-content");
         box.addEventListener("mouseenter", function () {
-            boxContent.style.maxHeight = "100px"; // Adjust height as needed
+            boxContent.style.maxHeight = "100px"; 
             boxContent.style.padding = "15px";
         });
 

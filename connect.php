@@ -3,11 +3,11 @@
 $host="localhost";
 $user="root";
 $pass="";
-$db="ewh1";
-$conn=new mysqli($host,$user,$pass,$db);
-if($conn->connect_error){
-    echo "Failed to connect DB".$conn->connect_error;
+$db="ewh";
+$connection=new mysqli($host,$user,$pass,$db);
+if($connection->connect_error){
+    echo "Failed to connect DB".$connection->connect_error;
 }
-//echo"connection successful";
+
 
 ?>

@@ -12,7 +12,7 @@
 
 .box-header {
     padding: 15px;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: bold;
     text-align: left;
 }
@@ -23,7 +23,7 @@
     color: black;
     padding: 0 10px; 
     text-align: left;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 1.2;
     max-height: 0;  
     overflow: hidden;

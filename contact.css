@@ -1,0 +1,17 @@
+.content {
+    background: white;
+    margin: 60px auto; 
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    width: 60%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.details{
+    font-size: large;
+    font-weight: 900;
+}

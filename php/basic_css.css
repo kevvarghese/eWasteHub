@@ -1,0 +1,47 @@
+* {
+  font-style: normal;
+  font-family: Calibri, sans-serif;
+}
+
+body {
+    background-image: url("./assets/images/background.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  background-color: black;
+  padding: 15px 30px; 
+  width: 100%;
+}
+
+
+.logo img {
+  height: auto;
+  width: 70px;
+}
+
+.shortcuts {
+  display: flex;
+  gap: 15px;
+}
+
+#index, #services, #FAQ, #contact, #about, #login {
+  padding: 10px;
+  padding-top: 6xp;
+  border-radius: 5px;
+  gap: 5px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#index:hover, #services:hover, #FAQ:hover, #about:hover, #contact:hover, #login:hover {
+  background-color:red;
+  text-decoration: none;
+}

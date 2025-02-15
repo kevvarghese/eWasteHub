@@ -1,6 +1,6 @@
 .container1 {
     width: 80%; 
-    max-width: 1000px; 
+    max-width: 1500px; 
     height: 400px; 
     margin: 20px auto; 
     background: url(./assets/images/ourvision.png) no-repeat center center;
@@ -74,4 +74,15 @@
 }
 .div3 {
     flex-direction: row-reverse;
+}
+
+.text h1 ,.text h3{
+    color: white; 
+    text-shadow: 
+        -2px -2px 0 black,  
+         2px -2px 0 black,
+        -2px  2px 0 black,
+         2px  2px 0 black; 
+    font-weight: bold;
+    font-weight: 900;
 }
